@@ -1,0 +1,685 @@
+[
+  {
+    "name": "GPT-5",
+    "vendor": "OpenAI",
+    "url": "https://platform.openai.com/docs/models",
+    "description": "OpenAI's flagship omni model with image and vision inputs alongside text and audio.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "OpenAI model docs (platform.openai.com/docs/models)"
+  },
+  {
+    "name": "Gemini 3",
+    "vendor": "Google DeepMind",
+    "url": "https://deepmind.google/technologies/gemini/",
+    "description": "Google DeepMind's flagship multimodal family with native image, video, and audio understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Google DeepMind Gemini page (deepmind.google/technologies/gemini/)"
+  },
+  {
+    "name": "Claude Fable 5.1",
+    "vendor": "Anthropic",
+    "url": "https://www.anthropic.com/claude",
+    "description": "Anthropic's flagship model line with strong image and document understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Anthropic Claude product page (anthropic.com/claude)"
+  },
+  {
+    "name": "Grok 4.7",
+    "vendor": "xAI",
+    "url": "https://x.ai",
+    "description": "xAI's flagship model with image understanding alongside text reasoning.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "xAI official site (x.ai)"
+  },
+  {
+    "name": "LLaVA / LLaVA-NeXT",
+    "vendor": "LLaVA-VL",
+    "url": "https://llava-vl.github.io/",
+    "description": "Pioneering open-source vision-language assistant connecting a vision encoder to an LLM; 1.5 and NeXT (1.6) generations.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official LLaVA project page (llava-vl.github.io)"
+  },
+  {
+    "name": "LLaVA-OneVision",
+    "vendor": "LLaVA-VL",
+    "url": "https://github.com/LLaVA-VL/LLaVA-NeXT",
+    "description": "Open single-sight model handling single images, multi-image, and video in one architecture.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official LLaVA-NeXT repository (github.com/LLaVA-VL/LLaVA-NeXT)"
+  },
+  {
+    "name": "InternVL3",
+    "vendor": "OpenGVLab",
+    "url": "https://huggingface.co/OpenGVLab/InternVL3-8B",
+    "description": "OpenGVLab's open multimodal family with strong image and video understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official model card (huggingface.co/OpenGVLab/InternVL3-8B)"
+  },
+  {
+    "name": "Qwen3-VL",
+    "vendor": "Alibaba",
+    "url": "https://huggingface.co/Qwen",
+    "description": "Alibaba's Qwen vision-language family for image and video understanding.",
+    "category": "vision-language-model",
+    "verified": false,
+    "unverified_reason": "Canonical Qwen3-VL model card URL not re-confirmed; linked official Qwen org page."
+  },
+  {
+    "name": "Molmo 2",
+    "vendor": "Ai2",
+    "url": "https://molmo.allenai.org/",
+    "description": "Allen Institute's open vision-language model family with strong grounding and image/video understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Molmo site (molmo.allenai.org)"
+  },
+  {
+    "name": "Aria",
+    "vendor": "Rhymes AI",
+    "url": "https://github.com/rhymes-ai/Aria",
+    "description": "Open multimodal-native mixture-of-experts model from Rhymes AI.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository linked from the Aria paper (arxiv.org/html/2410.05993v4)"
+  },
+  {
+    "name": "NVLM 1.0",
+    "vendor": "NVIDIA",
+    "url": "https://arxiv.org/abs/2409.11402",
+    "description": "NVIDIA's open frontier-class multimodal LLM family.",
+    "category": "vision-language-model",
+    "verified": false,
+    "unverified_reason": "Official repository URL not re-confirmed; linked paper page."
+  },
+  {
+    "name": "Pixtral 12B",
+    "vendor": "Mistral AI",
+    "url": "https://mistral.ai/news/pixtral-12b/",
+    "description": "Mistral's open image/document vision-language model.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Mistral announcement (mistral.ai/news/pixtral-12b/)"
+  },
+  {
+    "name": "Janus-Pro",
+    "vendor": "DeepSeek",
+    "url": "https://huggingface.co/deepseek-ai/Janus-Pro-7B",
+    "description": "DeepSeek's unified model for multimodal understanding and image generation.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official model card (huggingface.co/deepseek-ai/Janus-Pro-7B)"
+  },
+  {
+    "name": "Kimi-VL",
+    "vendor": "Moonshot AI",
+    "url": "https://github.com/MoonshotAI/Kimi-VL",
+    "description": "Moonshot AI's open MoE vision-language model for multimodal reasoning over images and video.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/MoonshotAI/Kimi-VL)"
+  },
+  {
+    "name": "MiniCPM-V 4.0",
+    "vendor": "OpenBMB",
+    "url": "https://github.com/openbmb/minicpm-v/blob/HEAD/docs/minicpm_v4_en.md",
+    "description": "OpenBMB's efficient open vision-language model for single/multi-image and video.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository docs (github.com/openbmb/minicpm-v)"
+  },
+  {
+    "name": "Phi-4-multimodal",
+    "vendor": "Microsoft",
+    "url": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+    "description": "Microsoft's small multimodal model combining speech, vision, and text in one checkpoint.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Microsoft announcement (azure.microsoft.com blog)"
+  },
+  {
+    "name": "CogVLM2",
+    "vendor": "Zhipu AI / THUDM",
+    "url": "https://github.com/THUDM/CogVLM2",
+    "description": "Tsinghua/Zhipu open visual-language model family for image and video understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository linked from the CogVLM2 paper page (huggingface.co/papers/2408.16500)"
+  },
+  {
+    "name": "BLIP-2",
+    "vendor": "Salesforce",
+    "url": "https://github.com/salesforce/LAVIS",
+    "description": "Salesforce's bootstrapped vision-language pre-training approach; code lives in the LAVIS library.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official LAVIS repository (github.com/salesforce/LAVIS)"
+  },
+  {
+    "name": "PaliGemma 2",
+    "vendor": "Google",
+    "url": "https://github.com/google-research/big_vision",
+    "description": "Google's open vision-language model family pairing SigLIP vision with Gemma; code in the Big Vision repo.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Big Vision repository (github.com/google-research/big_vision)"
+  },
+  {
+    "name": "SmolVLM",
+    "vendor": "Hugging Face",
+    "url": "https://huggingface.co/blog/smolvlm",
+    "description": "Hugging Face's tiny open vision-language models designed for on-device and edge use.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Hugging Face blog (huggingface.co/blog/smolvlm)"
+  },
+  {
+    "name": "Florence-2",
+    "vendor": "Microsoft",
+    "url": "https://huggingface.co/microsoft/Florence-2-large",
+    "description": "Microsoft's compact vision foundation model for captioning, detection, grounding, and OCR.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official model card (huggingface.co/microsoft/Florence-2-large)"
+  },
+  {
+    "name": "Idefics3",
+    "vendor": "Hugging Face",
+    "url": "https://huggingface.co/HuggingFaceM4/idefics3-8b",
+    "description": "Hugging Face's open vision-language model with strong document and multi-image understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official model card (huggingface.co/HuggingFaceM4/idefics3-8b)"
+  },
+  {
+    "name": "Gemma 3",
+    "vendor": "Google",
+    "url": "https://deepmind.google/technologies/gemma/",
+    "description": "Google's open-weight model family with vision understanding in its multimodal variants.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Gemma page (deepmind.google/technologies/gemma/)"
+  },
+  {
+    "name": "Llama 4",
+    "vendor": "Meta",
+    "url": "https://www.llama.com/",
+    "description": "Meta's open-weight multimodal model family with native image understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Llama site (llama.com)"
+  },
+  {
+    "name": "Qwen2.5-VL",
+    "vendor": "Alibaba",
+    "url": "https://github.com/QwenLM/Qwen2.5-VL",
+    "description": "Alibaba's open vision-language model for image, document, and video understanding.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Qwen repository (github.com/QwenLM/Qwen2.5-VL)"
+  },
+  {
+    "name": "LLaVA-Video (Video-LLaVA)",
+    "vendor": "LLaVA-VL",
+    "url": "https://huggingface.co/docs/transformers/v4.45.2/en/model_doc/video_llava",
+    "description": "Unified visual representation for joint image and video understanding.",
+    "category": "video-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Hugging Face Transformers model docs (video_llava)"
+  },
+  {
+    "name": "LLaVA-NeXT-Video",
+    "vendor": "LLaVA-VL",
+    "url": "https://llava-vl.github.io/blog/2024-04-30-llava-next-video/",
+    "description": "Zero-shot video understanding extension of LLaVA-NeXT via the AnyRes technique.",
+    "category": "video-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official LLaVA blog post on NeXT-Video"
+  },
+  {
+    "name": "InternVideo2.5",
+    "vendor": "OpenGVLab",
+    "url": "https://github.com/OpenGVLab/InternVideo",
+    "description": "OpenGVLab's video foundation model family for understanding and generation research.",
+    "category": "video-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/OpenGVLab/InternVideo)"
+  },
+  {
+    "name": "VideoChat2",
+    "vendor": "OpenGVLab",
+    "url": "https://github.com/OpenGVLab/Ask-Anything",
+    "description": "Chat-centric video understanding model from Shanghai AI Laboratory.",
+    "category": "video-model",
+    "verified": false,
+    "unverified_reason": "Repository path not re-confirmed against an official source."
+  },
+  {
+    "name": "LongVA",
+    "vendor": "EvolvingLMMs-Lab",
+    "url": "https://github.com/EvolvingLMMs-Lab/LongVA",
+    "description": "Long-video understanding model extending context to thousands of frames.",
+    "category": "video-model",
+    "verified": false,
+    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+  },
+  {
+    "name": "Moshi",
+    "vendor": "Kyutai",
+    "url": "https://github.com/kyutai-labs/moshi",
+    "description": "Kyutai's real-time full-duplex speech-to-speech dialogue model.",
+    "category": "audio-speech-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/kyutai-labs/moshi)"
+  },
+  {
+    "name": "LLaMA-Omni",
+    "vendor": "ICTNLP",
+    "url": "https://huggingface.co/ICTNLP/Llama-3.1-8B-Omni",
+    "description": "Speech-language model generating text and speech responses from spoken instructions.",
+    "category": "audio-speech-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official model card (huggingface.co/ICTNLP/Llama-3.1-8B-Omni)"
+  },
+  {
+    "name": "Qwen2-Audio",
+    "vendor": "Alibaba",
+    "url": "https://github.com/QwenLM/Qwen2-Audio",
+    "description": "Alibaba's large audio-language model for voice chat and audio analysis.",
+    "category": "audio-speech-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/QwenLM/Qwen2-Audio)"
+  },
+  {
+    "name": "Whisper",
+    "vendor": "OpenAI",
+    "url": "https://github.com/openai/whisper",
+    "description": "OpenAI's open speech-recognition model; the audio encoder backbone for many speech LLMs.",
+    "category": "audio-speech-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/openai/whisper)"
+  },
+  {
+    "name": "MMMU",
+    "vendor": "MMMU team",
+    "url": "https://mmmu-benchmark.github.io/",
+    "description": "Massive multi-discipline multimodal understanding benchmark across college-level subjects.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official benchmark site (mmmu-benchmark.github.io)"
+  },
+  {
+    "name": "MMBench",
+    "vendor": "OpenCompass",
+    "url": "https://github.com/open-compass/MMBench",
+    "description": "Bilingual multi-dimension benchmark for vision-language model abilities.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/open-compass/MMBench)"
+  },
+  {
+    "name": "MM-Vet",
+    "vendor": "UW-Madison",
+    "url": "https://arxiv.org/abs/2308.02490",
+    "description": "Integrated evaluation of core vision-language capabilities on complex tasks.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official paper page (arxiv.org/abs/2308.02490)"
+  },
+  {
+    "name": "MathVista",
+    "vendor": "UCLA",
+    "url": "https://mathvista.github.io/",
+    "description": "Visual math reasoning benchmark combining diagrams, charts, and figures.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official benchmark site (mathvista.github.io)"
+  },
+  {
+    "name": "ChartQA",
+    "vendor": "UCL",
+    "url": "https://arxiv.org/abs/2203.10244",
+    "description": "Question answering over real-world charts requiring visual and logical reasoning.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official paper page (arxiv.org/abs/2203.10244)"
+  },
+  {
+    "name": "DocVQA",
+    "vendor": "Computer Vision Center",
+    "url": "https://www.docvqa.org/",
+    "description": "Document visual question answering over scanned and born-digital documents.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official benchmark site (docvqa.org)"
+  },
+  {
+    "name": "TextVQA",
+    "vendor": "Georgia Tech",
+    "url": "https://textvqa.org/",
+    "description": "VQA requiring reading and reasoning about text in images.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official benchmark site (textvqa.org)"
+  },
+  {
+    "name": "RealWorldQA",
+    "vendor": "xAI",
+    "url": "https://huggingface.co/datasets/xai-org/RealworldQA",
+    "description": "Real-world physical spatial understanding QA over everyday images.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official dataset page (huggingface.co/datasets/xai-org/RealworldQA)"
+  },
+  {
+    "name": "MMStar",
+    "vendor": "Shanghai AI Lab",
+    "url": "https://github.com/MMStar-Benchmark/MMStar",
+    "description": "Vision-indispensable multimodal benchmark minimizing text-only shortcuts.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/MMStar-Benchmark/MMStar)"
+  },
+  {
+    "name": "Video-MME",
+    "vendor": "MME-Benchmarks",
+    "url": "https://github.com/MME-Benchmarks/Video-MME",
+    "description": "Comprehensive video analysis benchmark covering durations, subtitles, and audio.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/MME-Benchmarks/Video-MME)"
+  },
+  {
+    "name": "LongVideoBench",
+    "vendor": "OpenGVLab",
+    "url": "https://github.com/OpenGVLab/LongVideoBench",
+    "description": "Long-context interleaved video-language understanding benchmark.",
+    "category": "benchmark",
+    "verified": false,
+    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+  },
+  {
+    "name": "MVBench",
+    "vendor": "OpenGVLab",
+    "url": "https://github.com/OpenGVLab/MVBench",
+    "description": "Multi-task video benchmark converted from image tasks to test temporal understanding.",
+    "category": "benchmark",
+    "verified": false,
+    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+  },
+  {
+    "name": "EgoSchema",
+    "vendor": "EgoSchema team",
+    "url": "https://github.com/EgoSchema/EgoSchema",
+    "description": "Long-form egocentric video understanding benchmark.",
+    "category": "benchmark",
+    "verified": false,
+    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+  },
+  {
+    "name": "MMAU",
+    "vendor": "Georgia Tech",
+    "url": "https://iclr.cc/virtual/2025/poster/29528",
+    "description": "Massive multi-task audio understanding and reasoning across speech, sounds, and music.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official ICLR 2025 poster page (iclr.cc/virtual/2025/poster/29528)"
+  },
+  {
+    "name": "OmniBench",
+    "vendor": "OmniBench team",
+    "url": "https://github.com/ceilingfan456/omnibench",
+    "description": "Omnilingual omni-modal benchmark mixing image, audio, and text reasoning.",
+    "category": "benchmark",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/ceilingfan456/omnibench)"
+  },
+  {
+    "name": "VLMEvalKit",
+    "vendor": "OpenCompass",
+    "url": "https://github.com/open-compass/VLMEvalKit",
+    "description": "Open-source evaluation toolkit for large vision-language models.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/open-compass/VLMEvalKit)"
+  },
+  {
+    "name": "lmms-eval",
+    "vendor": "EvolvingLMMs-Lab",
+    "url": "https://github.com/EvolvingLMMs-Lab/lmms-eval",
+    "description": "Unified evaluation framework for multimodal LLMs across image, video, and audio.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/EvolvingLMMs-Lab/lmms-eval)"
+  },
+  {
+    "name": "Hugging Face Transformers",
+    "vendor": "Hugging Face",
+    "url": "https://github.com/huggingface/transformers",
+    "description": "Reference implementations and pipelines for vision, video, and audio-language models.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/huggingface/transformers)"
+  },
+  {
+    "name": "vLLM",
+    "vendor": "vLLM project",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "High-throughput serving engine with multimodal (image/audio) model support.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/vllm-project/vllm)"
+  },
+  {
+    "name": "SGLang",
+    "vendor": "SGLang project",
+    "url": "https://github.com/sgl-project/sglang",
+    "description": "Fast serving framework with multimodal model support.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/sgl-project/sglang)"
+  },
+  {
+    "name": "LMDeploy",
+    "vendor": "InternLM",
+    "url": "https://github.com/InternLM/lmdeploy",
+    "description": "Model deployment toolkit with vision-language model support.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/InternLM/lmdeploy)"
+  },
+  {
+    "name": "LLaMA-Factory",
+    "vendor": "hiyouga",
+    "url": "https://github.com/hiyouga/LLaMA-Factory",
+    "description": "Fine-tuning framework with multimodal (image/video/audio) training support.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/hiyouga/LLaMA-Factory)"
+  },
+  {
+    "name": "FiftyOne",
+    "vendor": "Voxel51",
+    "url": "https://github.com/voxel51/fiftyone",
+    "description": "Dataset curation and visualization toolkit for vision and multimodal data.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/voxel51/fiftyone)"
+  },
+  {
+    "name": "LAVIS",
+    "vendor": "Salesforce",
+    "url": "https://github.com/salesforce/LAVIS",
+    "description": "Salesforce's library for language-vision intelligence research and applications.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/salesforce/LAVIS)"
+  },
+  {
+    "name": "Ollama",
+    "vendor": "Ollama",
+    "url": "https://github.com/ollama/ollama",
+    "description": "Local model runner with support for open vision-language models.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/ollama/ollama)"
+  },
+  {
+    "name": "OpenCompass",
+    "vendor": "OpenCompass",
+    "url": "https://github.com/open-compass/opencompass",
+    "description": "General LLM evaluation platform covering multimodal benchmarks.",
+    "category": "tooling",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/open-compass/opencompass)"
+  },
+  {
+    "name": "COCO Captions",
+    "vendor": "COCO consortium",
+    "url": "https://cocodataset.org/",
+    "description": "Large-scale image captioning dataset; a standard VLM pre-training and eval resource.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official dataset site (cocodataset.org)"
+  },
+  {
+    "name": "VQAv2",
+    "vendor": "Virginia Tech",
+    "url": "https://visualqa.org/",
+    "description": "Open-ended visual question answering dataset balancing language priors.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official dataset site (visualqa.org)"
+  },
+  {
+    "name": "LAION-5B",
+    "vendor": "LAION",
+    "url": "https://laion.ai/",
+    "description": "Billion-scale open image-text dataset behind open CLIP and diffusion-era VLMs.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official LAION site (laion.ai)"
+  },
+  {
+    "name": "DataComp",
+    "vendor": "DataComp team",
+    "url": "https://www.datacomp.ai/",
+    "description": "Benchmark-driven dataset design competition for multimodal (CLIP-style) training data.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official competition site (datacomp.ai)"
+  },
+  {
+    "name": "Visual Genome",
+    "vendor": "Stanford",
+    "url": "https://visualgenome.org/",
+    "description": "Dense image annotations: objects, attributes, relationships, and region descriptions.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official dataset site (visualgenome.org)"
+  },
+  {
+    "name": "ShareGPT4V",
+    "vendor": "Shanghai AI Lab",
+    "url": "https://sharegpt4v.github.io",
+    "description": "1.2M high-detail image captions bootstrapped from GPT-4V for VLM training.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official project page (sharegpt4v.github.io)"
+  },
+  {
+    "name": "InternVid",
+    "vendor": "OpenGVLab",
+    "url": "https://github.com/OpenGVLab/InternVideo/tree/main/Data/InternVid",
+    "description": "Millions of videos with LLM-generated multi-scale descriptions for video-text learning.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official data directory (github.com/OpenGVLab/InternVideo)"
+  },
+  {
+    "name": "WavCaps",
+    "vendor": "PKU / Surrey",
+    "url": "https://github.com/XinhaoMei/WavCaps",
+    "description": "Roughly 400K weakly-labelled audio clips with ChatGPT-cleaned captions.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official repository (github.com/XinhaoMei/WavCaps)"
+  },
+  {
+    "name": "AudioSet",
+    "vendor": "Google",
+    "url": "https://research.google.com/audioset/",
+    "description": "Large ontology-labeled audio event dataset sourced from YouTube videos.",
+    "category": "dataset",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official dataset site (research.google.com/audioset/)"
+  }
+]

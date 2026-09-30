@@ -1,0 +1,63 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  links:
+    name: Link check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress './**/*.md'
+          fail: true
+
+  data:
+    name: Validate data files
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Validate multimodal-llms.json
+        run: |
+          python3 - <<'EOF'
+          import json
+
+          required = {"name", "vendor", "url", "description",
+                      "category", "verified"}
+          categories = {"vision-language-model", "video-model",
+                        "audio-speech-model", "benchmark", "tooling",
+                        "dataset"}
+
+          data = json.load(open("data/multimodal-llms.json"))
+          assert isinstance(data, list) and data, "must be a non-empty list"
+          for i, e in enumerate(data):
+              missing = required - e.keys()
+              assert not missing, f"entry {i} ({e.get('name')}) missing {missing}"
+              assert e["category"] in categories, \
+                  f"entry {i} ({e['name']}) bad category {e['category']}"
+              assert isinstance(e["verified"], bool), \
+                  f"entry {i} ({e['name']}) verified not bool"
+              assert e["url"].startswith("https://"), \
+                  f"entry {i} ({e['name']}) url must be https"
+              if e["verified"]:
+                  assert e.get("verified_date") and e.get("verified_source"), \
+                      f"entry {i} ({e['name']}) verified entry needs date+source"
+                  assert e["verified_source"].startswith("https://") or \
+                      "arxiv" in e["verified_source"].lower() or \
+                      "official" in e["verified_source"].lower(), \
+                      f"entry {i} ({e['name']}) verified_source should name an official source"
+              else:
+                  assert e.get("unverified_reason"), \
+                      f"entry {i} ({e['name']}) unverified entry needs unverified_reason"
+          names = [e["name"] for e in data]
+          assert len(names) == len(set(names)), "duplicate names"
+          print(f"OK: data/multimodal-llms.json: {len(data)} entries validated")
+          EOF
