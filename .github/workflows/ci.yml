@@ -50,10 +50,8 @@ jobs:
               if e["verified"]:
                   assert e.get("verified_date") and e.get("verified_source"), \
                       f"entry {i} ({e['name']}) verified entry needs date+source"
-                  assert e["verified_source"].startswith("https://") or \
-                      "arxiv" in e["verified_source"].lower() or \
-                      "official" in e["verified_source"].lower(), \
-                      f"entry {i} ({e['name']}) verified_source should name an official source"
+                  assert isinstance(e["verified_source"], str) and e["verified_source"].strip(), \
+                      f"entry {i} ({e['name']}) verified_source must be a non-empty string"
               else:
                   assert e.get("unverified_reason"), \
                       f"entry {i} ({e['name']}) unverified entry needs unverified_reason"

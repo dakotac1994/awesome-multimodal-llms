@@ -72,21 +72,22 @@
   {
     "name": "Qwen3-VL",
     "vendor": "Alibaba",
-    "url": "https://huggingface.co/Qwen",
+    "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
     "description": "Alibaba's Qwen vision-language family for image and video understanding.",
-    "category": "vision-language-model",
-    "verified": false,
-    "unverified_reason": "Canonical Qwen3-VL model card URL not re-confirmed; linked official Qwen org page."
-  },
-  {
-    "name": "Molmo 2",
-    "vendor": "Ai2",
-    "url": "https://molmo.allenai.org/",
-    "description": "Allen Institute's open vision-language model family with strong grounding and image/video understanding.",
     "category": "vision-language-model",
     "verified": true,
     "verified_date": "2026-09-30",
-    "verified_source": "Official Molmo site (molmo.allenai.org)"
+    "verified_source": "Official Qwen model card Qwen/Qwen3-VL-8B-Instruct on Hugging Face"
+  },
+  {
+    "name": "Molmo",
+    "vendor": "Ai2",
+    "url": "https://huggingface.co/allenai/Molmo-7B-D-0924",
+    "description": "Ai2's open vision-language model family with strong grounding; Apache 2.0 weights.",
+    "category": "vision-language-model",
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official Ai2 model card allenai/Molmo-7B-D-0924 on Hugging Face"
   },
   {
     "name": "Aria",
@@ -101,11 +102,12 @@
   {
     "name": "NVLM 1.0",
     "vendor": "NVIDIA",
-    "url": "https://arxiv.org/abs/2409.11402",
+    "url": "https://huggingface.co/nvidia/NVLM-D-72B",
     "description": "NVIDIA's open frontier-class multimodal LLM family.",
     "category": "vision-language-model",
-    "verified": false,
-    "unverified_reason": "Official repository URL not re-confirmed; linked paper page."
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official NVIDIA model card nvidia/NVLM-D-72B on Hugging Face (weights released per paper arxiv.org/abs/2409.11402)"
   },
   {
     "name": "Pixtral 12B",
@@ -150,12 +152,12 @@
   {
     "name": "Phi-4-multimodal",
     "vendor": "Microsoft",
-    "url": "https://azure.microsoft.com/en-us/blog/empowering-innovation-the-next-generation-of-the-phi-family/",
+    "url": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
     "description": "Microsoft's small multimodal model combining speech, vision, and text in one checkpoint.",
     "category": "vision-language-model",
     "verified": true,
     "verified_date": "2026-09-30",
-    "verified_source": "Official Microsoft announcement (azure.microsoft.com blog)"
+    "verified_source": "Official Microsoft model card microsoft/Phi-4-multimodal-instruct on Hugging Face"
   },
   {
     "name": "CogVLM2",
@@ -180,12 +182,12 @@
   {
     "name": "PaliGemma 2",
     "vendor": "Google",
-    "url": "https://github.com/google-research/big_vision",
-    "description": "Google's open vision-language model family pairing SigLIP vision with Gemma; code in the Big Vision repo.",
+    "url": "https://huggingface.co/google/paligemma2-3b-pt-224",
+    "description": "Google's open vision-language model family pairing SigLIP vision with Gemma.",
     "category": "vision-language-model",
     "verified": true,
     "verified_date": "2026-09-30",
-    "verified_source": "Official Big Vision repository (github.com/google-research/big_vision)"
+    "verified_source": "Official Google model card google/paligemma2-3b-pt-224 on Hugging Face"
   },
   {
     "name": "SmolVLM",
@@ -210,12 +212,12 @@
   {
     "name": "Idefics3",
     "vendor": "Hugging Face",
-    "url": "https://huggingface.co/HuggingFaceM4/idefics3-8b",
+    "url": "https://huggingface.co/HuggingFaceM4/Idefics3-8B-Llama3",
     "description": "Hugging Face's open vision-language model with strong document and multi-image understanding.",
     "category": "vision-language-model",
     "verified": true,
     "verified_date": "2026-09-30",
-    "verified_source": "Official model card (huggingface.co/HuggingFaceM4/idefics3-8b)"
+    "verified_source": "Official Hugging Face model card HuggingFaceM4/Idefics3-8B-Llama3 (Apache 2.0)"
   },
   {
     "name": "Gemma 3",
@@ -283,8 +285,9 @@
     "url": "https://github.com/OpenGVLab/Ask-Anything",
     "description": "Chat-centric video understanding model from Shanghai AI Laboratory.",
     "category": "video-model",
-    "verified": false,
-    "unverified_reason": "Repository path not re-confirmed against an official source."
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official OpenGVLab Ask-Anything repo hosting VideoChat2 (see video_chat2 directory)"
   },
   {
     "name": "LongVA",
@@ -292,8 +295,9 @@
     "url": "https://github.com/EvolvingLMMs-Lab/LongVA",
     "description": "Long-video understanding model extending context to thousands of frames.",
     "category": "video-model",
-    "verified": false,
-    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official EvolvingLMMs-Lab LongVA GitHub repo"
   },
   {
     "name": "Moshi",
@@ -438,20 +442,22 @@
   {
     "name": "LongVideoBench",
     "vendor": "OpenGVLab",
-    "url": "https://github.com/OpenGVLab/LongVideoBench",
+    "url": "https://github.com/longvideobench/LongVideoBench",
     "description": "Long-context interleaved video-language understanding benchmark.",
     "category": "benchmark",
-    "verified": false,
-    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official LongVideoBench GitHub repo (paper arxiv.org/abs/2407.15754); dataset at huggingface.co/datasets/longvideobench/LongVideoBench"
   },
   {
     "name": "MVBench",
     "vendor": "OpenGVLab",
-    "url": "https://github.com/OpenGVLab/MVBench",
-    "description": "Multi-task video benchmark converted from image tasks to test temporal understanding.",
+    "url": "https://github.com/OpenGVLab/Ask-Anything/blob/main/video_chat2/MVBENCH.md",
+    "description": "Multi-task video benchmark: 20 temporal understanding tasks spanning perception to cognition.",
     "category": "benchmark",
-    "verified": false,
-    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official MVBench doc in the OpenGVLab Ask-Anything repo; dataset at huggingface.co/datasets/OpenGVLab/MVBench"
   },
   {
     "name": "EgoSchema",
@@ -459,8 +465,9 @@
     "url": "https://github.com/EgoSchema/EgoSchema",
     "description": "Long-form egocentric video understanding benchmark.",
     "category": "benchmark",
-    "verified": false,
-    "unverified_reason": "Repository URL not re-confirmed on an official source today."
+    "verified": true,
+    "verified_date": "2026-09-30",
+    "verified_source": "Official EgoSchema GitHub repo (paper arxiv.org/abs/2308.09126)"
   },
   {
     "name": "MMAU",
@@ -635,12 +642,12 @@
   {
     "name": "Visual Genome",
     "vendor": "Stanford",
-    "url": "https://visualgenome.org/",
+    "url": "https://arxiv.org/abs/1602.07332",
     "description": "Dense image annotations: objects, attributes, relationships, and region descriptions.",
     "category": "dataset",
     "verified": true,
     "verified_date": "2026-09-30",
-    "verified_source": "Official dataset site (visualgenome.org)"
+    "verified_source": "Official Visual Genome paper (Krishna et al., IJCV 2017); visualgenome.org no longer serves the project site"
   },
   {
     "name": "ShareGPT4V",

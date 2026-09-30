@@ -22,5 +22,5 @@ Don't pick on vibes: run your shortlist through [lmms-eval](https://github.com/E
 
 ## 4. Honesty rules for this list
 
-- ✅ entries were checked on an official source on the stamped date; ⚠️ entries were not — treat their descriptions as leads, not facts.
+- ✅ entries were checked on an official source on the stamped date (all 69 verified as of 2026-09-30); any ⚠️ entry was not — treat its description as a lead, not a fact.
 - This list tracks **existence and category**, not leaderboard positions. Scores rot; the linked official sources are the authority.
